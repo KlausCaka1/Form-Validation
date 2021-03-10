@@ -1,0 +1,27 @@
+html, body {
+    height: 100vh;
+}
+
+.App {
+    display: flex;
+    height: 100%;
+}
+
+.App > div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 30px;
+}
+
+.App > div:first-child {
+    border-right: 1px solid #cbcbcb;
+}
+
+.App__input {
+    margin: 20px !important;
+}
+
+.App__value {
+    margin: 20px !important;
+}
